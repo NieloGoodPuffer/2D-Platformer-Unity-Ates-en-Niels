@@ -6,7 +6,7 @@ using UnityEngine;
 public class movement1 : MonoBehaviour
 {
 
-    float kaas = 0.1f;
+    float kaas = 0.3f;
     void Start()
     {
         
@@ -19,6 +19,10 @@ public class movement1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
                 transform.Translate(kaas, 0 ,0);
+        }
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            Rigidbody2D.
         }
     }
 }
